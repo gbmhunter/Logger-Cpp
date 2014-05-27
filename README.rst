@@ -12,7 +12,7 @@ A C++ library for adding easy and powerful message logging capabilities.
 - Author: gbmhunter <gbmhunter@gmail.com> (http://www.cladlab.com)
 - Created: 2014/05/27
 - Last Modified: 2014/05/27
-- Version: v1.1.0.0
+- Version: v1.1.1.0
 - Company: CladLabs
 - Project: Free Code Libraries
 - Language: C++
@@ -106,6 +106,7 @@ Changelog
 ========= ========== ===================================================================================================
 Version    Date       Comment
 ========= ========== ===================================================================================================
+v1.1.1.0  2014/05/27 Added .travis.yml file to root folder.
 v1.1.0.0  2014/05/27 Modified all Colour constants so get around the 'static initilisation fiasco', by using the 'construct on first use' idiom.
 v1.0.0.0  2014/05/27 Initial commit. Logger library works fine for outputting messages using either the '<<' operator or one of the 'Logger::Print()' functions. A basic output test and colour tests are included.
 ========= ========== ===================================================================================================
