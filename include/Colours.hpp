@@ -21,7 +21,7 @@ namespace LoggerNs
 	{
 
 	public:
-
+/*
 		static const Colour DEFAULT;
 		static const Colour WHITE;
 		static const Colour BLACK;
@@ -39,6 +39,26 @@ namespace LoggerNs
 		static const Colour DARK_PURPLE;
 		static const Colour LIGHT_CYAN;
 		static const Colour DARK_CYAN;
+*/
+
+
+		static Colour& DEFAULT();
+		static Colour& WHITE();
+		static Colour& BLACK();
+		static Colour& LIGHT_GREY();
+		static Colour& DARK_GREY();
+		static Colour& LIGHT_RED();
+		static Colour& DARK_RED();
+		static Colour& LIGHT_GREEN();
+		static Colour& DARK_GREEN();
+		static Colour& LIGHT_YELLOW();
+		static Colour& DARK_YELLOW();
+		static Colour& LIGHT_BLUE();
+		static Colour& DARK_BLUE();
+		static Colour& LIGHT_PURPLE();
+		static Colour& DARK_PURPLE();
+		static Colour& LIGHT_CYAN();
+		static Colour& DARK_CYAN();
 
 	private:
 

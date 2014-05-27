@@ -25,55 +25,55 @@ namespace LoggerTests
 
 		TEST(ColourTest)
 		{
-			LoggerNs::Logger stdOut(std::cout, LoggerNs::Colours::WHITE, LoggerNs::Colours::DEFAULT);
+			LoggerNs::Logger stdOut(std::cout, LoggerNs::Colours::WHITE(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be white." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::BLACK, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::BLACK(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be black." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DEFAULT, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DEFAULT(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be the default colour." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_GREY, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_GREY(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light grey." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_GREY, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_GREY(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark grey." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_RED, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_RED(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light red." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_RED, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_RED(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark red." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_YELLOW, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_YELLOW(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light yellow." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_YELLOW, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_YELLOW(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark yellow." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_BLUE, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_BLUE(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light blue." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_BLUE, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_BLUE(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark blue." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_GREEN, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_GREEN(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light green." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_GREEN, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_GREEN(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark green." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_PURPLE, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_PURPLE(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light purple." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_PURPLE, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_PURPLE(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark purple." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_CYAN, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::LIGHT_CYAN(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be light cyan." << std::endl);
 
-			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_CYAN, LoggerNs::Colours::DEFAULT);
+			stdOut = LoggerNs::Logger(std::cout, LoggerNs::Colours::DARK_CYAN(), LoggerNs::Colours::DEFAULT());
 			stdOut.Print(Ss() << "This should be dark cyan." << std::endl);
 
 			/*

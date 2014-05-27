@@ -25,7 +25,7 @@ namespace LoggerTests
 		TEST(BasicTest)
 		{
 
-			LoggerNs::Logger stdOut(std::cout, LoggerNs::Colours::LIGHT_RED, LoggerNs::Colours::DEFAULT);
+			LoggerNs::Logger stdOut(std::cout, LoggerNs::Colours::LIGHT_RED(), LoggerNs::Colours::DEFAULT());
 
 			stdOut.AddPrefix("Prefix: ");
 			stdOut.AddSuffix(" :Suffix\r\n");
